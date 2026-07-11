@@ -1,0 +1,39 @@
+# Visual Studio 生成文件
+.vs/
+.vscode/
+
+# 编译输出
+Debug/
+Release/
+x64/
+x86/
+
+# 中间文件
+*.obj
+*.o
+*.pdb
+*.ilk
+*.idb
+*.pch
+
+# 可执行文件
+*.exe
+*.dll
+
+# Visual Studio 用户配置
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# C/C++ 临时文件
+*.log
+*.tlog
+
+# 临时备份文件
+*.bak
+*.tmp
+
+# Windows 文件
+Thumbs.db
+desktop.ini
