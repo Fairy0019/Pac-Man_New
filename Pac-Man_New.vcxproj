@@ -19,25 +19,29 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\collision.c" />
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\draw.c" />
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\game.c" />
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\ghost.c" />
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\input.c" />
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\main.c" />
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\maze.c" />
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\pellet.c" />
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\texture.c" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\account.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\collision.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\draw.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\game.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\ghost.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\input.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\maze.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\menu.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\pellet.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\texture.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Pac-Man_0005_第一次践行拆分版\collision.h" />
-    <ClInclude Include="src\Pac-Man_0005_第一次践行拆分版\draw.h" />
-    <ClInclude Include="src\Pac-Man_0005_第一次践行拆分版\game.h" />
-    <ClInclude Include="src\Pac-Man_0005_第一次践行拆分版\ghost.h" />
-    <ClInclude Include="src\Pac-Man_0005_第一次践行拆分版\input.h" />
-    <ClInclude Include="src\Pac-Man_0005_第一次践行拆分版\maze.h" />
-    <ClInclude Include="src\Pac-Man_0005_第一次践行拆分版\pellet.h" />
-    <ClInclude Include="src\Pac-Man_0005_第一次践行拆分版\texture.h" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\account.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\collision.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\draw.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\game.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\ghost.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\input.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\main.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\maze.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\menu.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\pellet.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\texture.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>

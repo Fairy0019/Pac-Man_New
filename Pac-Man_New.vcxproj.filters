@@ -15,58 +15,70 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\collision.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\draw.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\game.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\ghost.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\input.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\main.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\maze.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\pellet.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0005_第一次践行拆分版\texture.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="src\Pac-Man_0000_待命名\menu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\ghost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\pellet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\draw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\input.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\maze.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\texture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\collision.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\account.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Pac-Man_0005_第一次践行拆分版\collision.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Pac-Man_0005_第一次践行拆分版\draw.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Pac-Man_0005_第一次践行拆分版\game.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Pac-Man_0005_第一次践行拆分版\ghost.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Pac-Man_0005_第一次践行拆分版\input.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Pac-Man_0005_第一次践行拆分版\maze.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Pac-Man_0005_第一次践行拆分版\pellet.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Pac-Man_0005_第一次践行拆分版\texture.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="src\Pac-Man_0000_待命名\menu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\account.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\collision.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\game.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\pellet.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\draw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\maze.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\ghost.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\texture.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\input.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
