@@ -63,15 +63,6 @@ extern int seqIndex;
 
 extern float ghostTimer;
 
-////==================== 图片 ====================
-//
-//extern Texture2D pacmanTex[3];
-//
-//extern Texture2D ghostTex;
-//extern Texture2D wallTex;
-//extern Texture2D dotTex;
-//extern Texture2D energyDotTex;
-
 //==================== 游戏函数 ====================
 
 void initGame(void);

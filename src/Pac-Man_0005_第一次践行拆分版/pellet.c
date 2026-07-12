@@ -1,5 +1,5 @@
 #include "pellet.h"
-#include "game.h"
+//#include "game.h"
 #include "maze.h"      // ← 新增
 
 #include <stdlib.h>

@@ -1,5 +1,5 @@
 #include "collision.h"
-#include "game.h"
+//#include "game.h"
 #include "pellet.h"
 
 void checkPellet(void)

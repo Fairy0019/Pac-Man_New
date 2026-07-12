@@ -1,4 +1,4 @@
-#include "game.h"
+//#include "game.h"
 #include "maze.h"
 #include "pellet.h"
 #include "ghost.h"

@@ -1,5 +1,5 @@
 #include "draw.h"
-#include "game.h"
+//#include "game.h"
 #include "texture.h"
 #include "pellet.h"
 
