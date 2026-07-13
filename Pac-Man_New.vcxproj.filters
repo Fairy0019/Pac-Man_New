@@ -45,6 +45,9 @@
     <ClInclude Include="src\Pac-Man_0000_待命名\account.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\Game_State.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Pac-Man_0000_待命名\menu.c">
@@ -78,6 +81,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\Pac-Man_0000_待命名\input.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\Game_State.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

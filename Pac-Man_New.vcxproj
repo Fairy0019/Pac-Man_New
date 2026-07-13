@@ -23,6 +23,7 @@
     <ClInclude Include="src\Pac-Man_0000_待命名\collision.h" />
     <ClInclude Include="src\Pac-Man_0000_待命名\draw.h" />
     <ClInclude Include="src\Pac-Man_0000_待命名\game.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\Game_State.h" />
     <ClInclude Include="src\Pac-Man_0000_待命名\ghost.h" />
     <ClInclude Include="src\Pac-Man_0000_待命名\input.h" />
     <ClInclude Include="src\Pac-Man_0000_待命名\maze.h" />
@@ -35,6 +36,7 @@
     <ClCompile Include="src\Pac-Man_0000_待命名\collision.c" />
     <ClCompile Include="src\Pac-Man_0000_待命名\draw.c" />
     <ClCompile Include="src\Pac-Man_0000_待命名\game.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\Game_State.c" />
     <ClCompile Include="src\Pac-Man_0000_待命名\ghost.c" />
     <ClCompile Include="src\Pac-Man_0000_待命名\input.c" />
     <ClCompile Include="src\Pac-Man_0000_待命名\main.c" />

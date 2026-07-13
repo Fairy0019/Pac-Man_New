@@ -1,34 +1,58 @@
 #pragma once
 
+#ifndef SYSTEM_H
+#define SYSTEM_H
+
+#endif // SYSTEM_H
+
 #ifndef GAME_STATE_H
 #define GAME_STATE_H
 
-//游戏状态
+
+//====== 头文件声明======
+void updateProfile();
+void updateMenu();
+void updateGame();
+void updatePause();
+
+void drawProfile();
+void drawMenu();
+void drawGame();
+void drawPause();
+
+void updateGameState();
+void drawGameState();
+
+void updateModeSelect();
+void drawModeSelect();
+
 typedef enum
 {
-    STATE_PROFILE = 0, //个人资料
+    STATE_PROFILE,
+    STATE_MAIN_MENU,
 
-    STATE_MAIN_MENU,   //主菜单
+    STATE_MODE_SELECT,
 
-    STATE_GAME,    //游戏进行中
+    STATE_GAME,
+    STATE_PAUSE,
 
-    STATE_PAUSE,   //游戏暂停
+    STATE_HISTORY,
+    STATE_SETTING,
 
-    STATE_HISTORY,  //历史记录
+    STATE_EXIT,
+    MAX_STATES // 用于数组大小
+} GameState;
 
-    STATE_SETTING, //设置
+typedef void (*StateCallback)(void);
 
-    STATE_EXIT //退出游戏
-
-}GameState;
-
-//当前游戏状态（全局变量）
 extern GameState currentState;
 
-//设置状态
-void setGameState(GameState state);
+void setGameState(GameState newState);
 
-//获取当前状态
 GameState getGameState(void);
 
-#endif 
+void registerEnterCallback(GameState state, StateCallback cb);
+
+void registerExitCallback(GameState state, StateCallback cb);
+
+#endif
