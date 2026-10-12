@@ -15,70 +15,120 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Pac-Man_0000_待命名\menu.h">
+    <ClCompile Include="src\Pac-Man_0000_待命名\Main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\Game_State\Game_State.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\audio\audio_manager.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\account\account.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\account\account_menu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\account\account_ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\account\history.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\account\player_data.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\collision\collision.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\collision\draw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\game\game.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\ghost\ghost.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\input\input.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\main_menu\main_menu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\maze\maze.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\pellet\pellet.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\settings\settings.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pac-Man_0000_待命名\texture\texture.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Pac-Man_0000_待命名\Game_State\Game_State.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Pac-Man_0000_待命名\game.h">
+    <ClInclude Include="src\Pac-Man_0000_待命名\audio\audio_manager.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Pac-Man_0000_待命名\ghost.h">
+    <ClInclude Include="src\Pac-Man_0000_待命名\account\account.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Pac-Man_0000_待命名\pellet.h">
+    <ClInclude Include="src\Pac-Man_0000_待命名\account\account_menu.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Pac-Man_0000_待命名\draw.h">
+    <ClInclude Include="src\Pac-Man_0000_待命名\account\account_ui.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Pac-Man_0000_待命名\input.h">
+    <ClInclude Include="src\Pac-Man_0000_待命名\account\history.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Pac-Man_0000_待命名\maze.h">
+    <ClInclude Include="src\Pac-Man_0000_待命名\account\player_data.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Pac-Man_0000_待命名\texture.h">
+    <ClInclude Include="src\Pac-Man_0000_待命名\collision\collision.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Pac-Man_0000_待命名\collision.h">
+    <ClInclude Include="src\Pac-Man_0000_待命名\collision\draw.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\Pac-Man_0000_待命名\account.h">
+    <ClInclude Include="src\Pac-Man_0000_待命名\game\game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\ghost\ghost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\input\input.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\main_menu\main_menu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\maze\maze.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\menu\menu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\pellet\pellet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\settings\settings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pac-Man_0000_待命名\texture\texture.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Pac-Man_0000_待命名\menu.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0000_待命名\account.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0000_待命名\main.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0000_待命名\collision.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0000_待命名\game.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0000_待命名\pellet.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0000_待命名\draw.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0000_待命名\maze.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0000_待命名\ghost.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0000_待命名\texture.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Pac-Man_0000_待命名\input.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <None Include="Music\HOYO-MiX - 太空漫步 Space Walk.mp3">
+      <Filter>资源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>

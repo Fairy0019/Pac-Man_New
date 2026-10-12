@@ -36,6 +36,9 @@ x86/
 *.bak
 *.tmp
 
+# 运行时账户、玩家与历史记录存档（保留在本地，不提交）
+**/save/
+
 # Windows 文件
 Thumbs.db
 desktop.ini

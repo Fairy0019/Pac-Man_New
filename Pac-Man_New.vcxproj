@@ -18,31 +18,6 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\Pac-Man_0000_待命名\account.h" />
-    <ClInclude Include="src\Pac-Man_0000_待命名\collision.h" />
-    <ClInclude Include="src\Pac-Man_0000_待命名\draw.h" />
-    <ClInclude Include="src\Pac-Man_0000_待命名\game.h" />
-    <ClInclude Include="src\Pac-Man_0000_待命名\ghost.h" />
-    <ClInclude Include="src\Pac-Man_0000_待命名\input.h" />
-    <ClInclude Include="src\Pac-Man_0000_待命名\maze.h" />
-    <ClInclude Include="src\Pac-Man_0000_待命名\menu.h" />
-    <ClInclude Include="src\Pac-Man_0000_待命名\pellet.h" />
-    <ClInclude Include="src\Pac-Man_0000_待命名\texture.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="src\Pac-Man_0000_待命名\account.c" />
-    <ClCompile Include="src\Pac-Man_0000_待命名\collision.c" />
-    <ClCompile Include="src\Pac-Man_0000_待命名\draw.c" />
-    <ClCompile Include="src\Pac-Man_0000_待命名\game.c" />
-    <ClCompile Include="src\Pac-Man_0000_待命名\ghost.c" />
-    <ClCompile Include="src\Pac-Man_0000_待命名\input.c" />
-    <ClCompile Include="src\Pac-Man_0000_待命名\main.c" />
-    <ClCompile Include="src\Pac-Man_0000_待命名\maze.c" />
-    <ClCompile Include="src\Pac-Man_0000_待命名\menu.c" />
-    <ClCompile Include="src\Pac-Man_0000_待命名\pellet.c" />
-    <ClCompile Include="src\Pac-Man_0000_待命名\texture.c" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -175,6 +150,50 @@
       <EnableSegmentHeap>true</EnableSegmentHeap>
     </Manifest>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Pac-Man_0000_待命名\Main.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\Game_State\Game_State.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\audio\audio_manager.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\account\account.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\account\account_menu.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\account\account_ui.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\account\history.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\account\player_data.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\collision\collision.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\collision\draw.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\game\game.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\ghost\ghost.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\input\input.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\main_menu\main_menu.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\maze\maze.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\pellet\pellet.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\settings\settings.c" />
+    <ClCompile Include="src\Pac-Man_0000_待命名\texture\texture.c" />
+    <!-- These files are standalone module test programs, not part of the game executable. -->
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Pac-Man_0000_待命名\Game_State\Game_State.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\audio\audio_manager.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\account\account.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\account\account_menu.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\account\account_ui.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\account\history.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\account\player_data.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\collision\collision.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\collision\draw.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\game\game.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\ghost\ghost.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\input\input.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\main_menu\main_menu.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\maze\maze.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\menu\menu.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\pellet\pellet.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\settings\settings.h" />
+    <ClInclude Include="src\Pac-Man_0000_待命名\texture\texture.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Music\HOYO-MiX - 太空漫步 Space Walk.mp3" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
